@@ -1,13 +1,5 @@
 {
-  "itemGroup.asukamagic": "Example Mod Tab",
-  "block.asukamagic.example_block": "Example Block",
-  "item.asukamagic.example_item": "Example Item",
-
-  "asukamagic.configuration.title": "Asuka Magic Configs",
-  "asukamagic.configuration.section.asukamagic.common.toml": "Asuka Magic Configs",
-  "asukamagic.configuration.section.asukamagic.common.toml.title": "Asuka Magic Configs",
-  "asukamagic.configuration.items": "Item List",
-  "asukamagic.configuration.logDirtBlock": "Log Dirt Block",
-  "asukamagic.configuration.magicNumberIntroduction": "Magic Number Text",
-  "asukamagic.configuration.magicNumber": "Magic Number"
+  "itemGroup.asukamagic_tab": "Asuka Magic",
+  "item.asukamagic.short_staff": "Short Staff",
+  "item.asukamagic.test_magic_book": "Test Magic Book"
 }
