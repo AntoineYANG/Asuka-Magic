@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - Asuka-Magic",
+        "order": 0
+      },
+      "projectName": "Asuka-Magic",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dasukamagic%%D:\\project\\Asuka-Magic\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - Asuka-Magic",
+        "order": 1
+      },
+      "projectName": "Asuka-Magic",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dasukamagic%%D:\\project\\Asuka-Magic\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - Asuka-Magic",
+        "order": 2
+      },
+      "projectName": "Asuka-Magic",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dasukamagic%%D:\\project\\Asuka-Magic\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - Asuka-Magic",
+        "order": 3
+      },
+      "projectName": "Asuka-Magic",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\project\\Asuka-Magic\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dasukamagic%%D:\\project\\Asuka-Magic\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
