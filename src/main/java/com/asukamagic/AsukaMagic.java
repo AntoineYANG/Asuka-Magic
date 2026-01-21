@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 
 import com.asukamagic.item.ModCreativeModeTabs;
 import com.asukamagic.item.ModItems;
+import com.asukamagic.mana.ModAttachments;
 import com.mojang.logging.LogUtils;
 
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -46,6 +47,8 @@ public class AsukaMagic {
     public AsukaMagic(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModAttachments.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

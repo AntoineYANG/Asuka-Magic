@@ -1,5 +1,6 @@
 {
   "itemGroup.asukamagic_tab": "飞鸟魔法",
   "item.asukamagic.short_staff": "短杖",
-  "item.asukamagic.test_magic_book": "测试魔法书"
+  "item.asukamagic.test_magic_book": "测试魔法书",
+  "hud.asukamagic.mana": "魔力值: %1$d / %2$d"
 }
